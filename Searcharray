@@ -12,7 +12,8 @@ public class Search {
 		
 		while(i<a.length) {
 		if(key==a[i]) {
-				flag=true;
+			flag=true;
+			break;
 		}else {
 			flag=false;
 		}
