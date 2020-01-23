@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class AddElement {
+
+	public static void main(String[] args) {
+		int a[] = new int [5];
+		Scanner s = new Scanner(System.in);
+		System.out.println("enter element for array");
+		System.out.println(a.length);
+		for(int i=0;i<a.length;i++) {
+			a[i] = s.nextInt();
+		}
+		
+			System.out.println("Enter the element and position");
+			int element = s.nextInt();
+			int position = s.nextInt();
+			
+			for(int i=0;i<=a.length;i++) {
+				if(i==position-1) {
+					a[i]=element;
+				
+				}
+			}	
+			s.close();
+			System.out.println("After adding the element");
+			 for(int i=0;i<a.length;i++) {
+					System.out.println(a[i]);
+			   }	   
+			}
+
+}
