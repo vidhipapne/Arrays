@@ -1,0 +1,26 @@
+import java.util.*;
+public class Datatype {
+
+	public static void main(String[] args) {
+		        int i = 4;
+		        double d = 4.0;
+		        String s = "Hello World ";
+				
+		        Scanner scan = new Scanner(System.in);
+		        int N = scan.nextInt();
+		        double D = scan.nextDouble();
+		        String words=" ";
+		        while(scan.hasNext()) {
+		        	words = words.concat(scan.nextLine());
+		        }
+		      
+		        System.out.println(N + i);
+		        System.out.println(D + d);
+		        System.out.println(s.concat(words));
+
+		        scan.close();
+		    }
+
+	}
+
+
